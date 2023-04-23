@@ -1,0 +1,241 @@
+/* RESPONSIVE 1270PX */
+@media screen and (max-width: 1270px) {
+  /* MAIN START */
+  /* content2 */
+  .content2-box {
+    max-width: calc(100% - 6em) !important;
+    padding: 0 !important;
+  }
+  /* content3 */
+  .content3-box {
+    max-width: calc(100% - 6em) !important;
+    padding: 0 !important;
+  }
+  .phone-content {
+    width: 57% !important;
+    left: 22% !important;
+  }
+  /* content4 */
+  .con-column-rev {
+    max-width: calc(100% - 6em) !important;
+    padding: 0 !important;
+  }
+  /* MAIN END */
+}
+
+/* RESPONSIVE 1110PX */
+@media screen and (max-width: 1120px) {
+  /* MAIN START */
+  /* content2 */
+  .content2-box h2 {
+    font-size: 2em !important;
+    font-weight: 700 !important;
+    transition: 0.5s;
+  }
+  /* MAIN END */
+}
+
+/* RESPONSIVE 980PX */
+@media screen and (max-width: 980px) {
+  /* MAIN START */
+  /* content1 */
+  .bg-h1 {
+    font-size: 2em !important;
+    font-weight: 700 !important;
+    transition: 0.5s;
+  }
+  .text-con p {
+    font-size: 1.3em !important;
+  }
+  /* content2 */
+  .content2-text {
+    text-align: center !important;
+  }
+  .content2-box p {
+    font-size: 1.2em !important;
+    font-weight: 500;
+    transition: 0.5s;
+  }
+  .content2-box h2 {
+    text-align: center !important;
+  }
+  .con-column {
+    max-width: calc(90% - 6em) !important;
+    flex-wrap: wrap;
+    transition: 0.5s;
+  }
+  .content2-box img {
+    width: 100% !important;
+  }
+  video {
+    object-fit: contain;
+  }
+  /* content3 */
+  .con-column-rev {
+    max-width: calc(90% - 6em) !important;
+    flex-wrap: wrap;
+    flex-direction: column-reverse !important;
+    /* dikey sıralama yönünü değiştirdik */
+    transition: 0.5s;
+  }
+  h2 {
+    text-align: center;
+    font-size: 2em !important;
+    font-weight: 700 !important;
+  }
+  p {
+    text-align: center !important;
+    font-size: 1.2em !important;
+    font-weight: normal !important;
+    margin-top: 0 !important;
+  }
+  .phone-content {
+    width: 50% !important;
+    left: 25% !important;
+  }
+  /* content4 */
+  .content4-box .tv-box {
+    max-width: 40em !important;
+  }
+  /* accordion */
+  .accordion .accordion-button {
+    font-size: 18px !important;
+  }
+  .accordion-body {
+    font-size: 18px !important;
+  }
+
+  /* MAIN END */
+}
+
+/* RESPONSIVE 768PX */
+@media screen and (max-width: 768px) {
+  /* HEADER START */
+  .netflix-logo .logo {
+    width: 90px !important;
+    transition: 0.7s;
+  }
+  /* HEADER END */
+  /* MAIN START */
+  /* content3 */
+  .con-column-rev {
+    max-width: calc(100% - 4em) !important;
+    flex-wrap: wrap;
+    transition: 0.5s;
+  }
+  .st-img img {
+    height: 4em !important;
+  }
+  /* content4 */
+  .con-column {
+    max-width: calc(100% - 4em) !important;
+    flex-wrap: wrap;
+    transition: 0.5s;
+  }
+
+  /* MAIN END */
+}
+
+/* RESPONSIVE 576PX */
+@media screen and (max-width: 576px) {
+  /* HEADER START */
+  .netflix-logo img {
+    width: auto;
+  }
+  select {
+    width: 30px !important;
+    padding-right: 1.75em !important;
+  }
+  /* HEADER END */
+
+  /* MAIN START */
+  /* content1 */
+  .bg1-contanier {
+    min-height: 450px !important;
+  }
+  .input {
+    flex-wrap: wrap;
+  }
+  .input input {
+    width: 100% !important;
+  }
+  .input button {
+    margin-top: 20px;
+    font-size: 1.2em !important;
+    width: auto !important;
+  }
+  /* content3 */
+  .con-column-rev {
+    max-width: calc(100% - 3em) !important;
+    flex-wrap: wrap;
+    transition: 0.5s;
+  }
+  .st-img img {
+    height: 3em !important;
+  }
+  .st-content .title{
+    font-size: .9em !important;
+  }
+  .st-content .title-content{
+    font-size: .7em !important;
+  }
+  .download {
+    width: 2.3em !important;
+    height: 2.3em !important;
+  }
+  .download img {
+    width: 2.5em !important;
+    height: 2.5em !important;
+  }
+  /* content4 */
+  .con-column {
+    max-width: calc(100% - 3em) !important;
+    flex-wrap: wrap;
+    transition: 0.5s;
+  }
+  .accordion-con {
+    width: 100% !important;
+  }
+  /* MAIN END */
+}
+
+/* RESPONSIVE 500PX */
+@media screen and (max-width: 530px) {
+  /* HEADER START */
+  .text-end .select-menu {
+    margin-left: 5px;
+  }
+  .text-end button {
+    line-height: 0.85;
+  }
+  /* HEADER END */
+
+  /* MAIN START */
+  /* content1 */
+  .text-con {
+    position: relative;
+    bottom: 3em;
+  }
+  /* content3 */
+  .phone-content {
+    left: 23% !important;
+  }
+  /* accordion */
+  .accordion .input-bottom {
+    display: block !important;
+    transition: 0.5s;
+  }
+  .input-bottom input {
+    width: 100% !important;
+    transition: 0.5s;
+  }
+  /* MAIN END */
+}
+
+/* RESPONSIVE 400PX */
+@media screen and (max-width: 430px) {
+  /* content3 */
+  .phone-content {
+    left: 17% !important;
+  }
+}
