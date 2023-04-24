@@ -8,6 +8,9 @@ body {
   background: #000;
   font-family: Netflix Sans, Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
 .header{
   background: transparent !important;
   position: relative;
