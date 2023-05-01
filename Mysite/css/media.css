@@ -248,7 +248,6 @@
   }
   #message {
     width: 350px;
-    height: 150px;
     margin-top: 10px;
   }
   /* MAIN END */
@@ -329,10 +328,6 @@
 
 @media screen and (max-width: 400px) {
   /* HEADER START */
-  /* sticky nav */
-  .sticky-nav {
-    display: none;
-  }
   /* HEADER END */
   /* MAIN START */
   /* skills */
@@ -342,19 +337,20 @@
   }
   /* contact */
   #name {
-    width: 250px;
+    width: 200px;
   }
   #surname {
-    width: 250px;
+    width: 200px;
   }
   #mail {
-    width: 250px;
+    width: 200px;
   }
   #subject {
-    width: 250px;
+    width: 200px;
   }
   #message {
-    width: 250px;
+    width: 200px;
+    height: 200px;
   }
   /* MAIN END */
 
