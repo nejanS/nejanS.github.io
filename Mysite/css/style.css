@@ -174,8 +174,7 @@ header .dropdown:hover {
   width: 58px;
   padding: 5px;
   position: sticky;
-  left: 0;
-  margin-top: 180px;
+  margin-top: 200px;
   background: linear-gradient(
     0deg,
     rgba(18, 4, 41, 1) 15%,
@@ -312,7 +311,7 @@ header .dropdown:hover {
 /* html */
 .content3 .html {
   animation-delay: 0.4s;
-  width: 70%;
+  width: 80%;
 }
 /* css */
 .content3 .css {
@@ -322,24 +321,39 @@ header .dropdown:hover {
 /* js */
 .content3 .js {
   animation-delay: 0.6s;
-  width: 10%;
+  width: 30%;
 }
 /* bootstarp */
 .content3 .bs {
   animation-delay: 0.6s;
-  width: 30%;
+  width: 60%;
 }
 /* python */
 .content3 .python {
   animation-delay: 0.4s;
+  width: 20%;
+}
+/* c++ */
+.content3 .c-plus {
+  animation-delay: 0.3s;
+  width: 30%;
+}
+/* jquery */
+.content3 .jquery {
+  animation-delay: 0.3s;
   width: 30%;
 }
 /* c++ */
 .content3 .c-plus {
   animation-delay: 0.3s;
-  width: 40%;
+  width: 30%;
 }
-/* solidworks */
+/* react */
+.content3 .react {
+  animation-delay: 0.1s;
+  width: 20%;
+}
+/* solid */
 .content3 .solid {
   animation-delay: 0.1s;
   width: 70%;
