@@ -260,11 +260,11 @@
     display: none;
     transition: 1s;
   }
-  header .menubar {
+  #hamburger{
     display: block;
-  }
-  .drop-menu:hover .dropdown {
-    display: block;
+  }  
+  .sticky-nav{
+    display: none;
   }
   .content2 .about-title {
     font-size: 1.3em;

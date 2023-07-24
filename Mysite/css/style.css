@@ -102,42 +102,23 @@ header .nav-link:hover {
   color: #7da6f2;
   transition: 0.3s;
 }
-/* reponsive dropdown menü tasarımı */
-header .drop-menu{
-  float: right;
-  position: relative;
-  bottom: 60px;
-}
-header .menubar {
-  width: 40px;
-  height: 40px;
-  float: right;
-  margin-right: 10px;
-  margin-top: 7px;
-  background-color: #83a8ec;
-  border-radius: 5px;
-  border: none;
-  display: none;
-  cursor: pointer;
-}
-header .menubar:hover {
-  background: linear-gradient(
-    0deg,
-    rgba(20, 0, 55, 1) 15%,
-    rgba(64, 13, 99, 1) 47%,
-    rgba(79, 80, 150, 1) 66%,
-    rgba(131, 168, 236, 1) 93%
-  );
-  box-shadow: inset -1px -2px 3px white;
-  transition: 1s;
-}
 
-header .dropdown {
+/* hamburger menu start */
+#hamburger{
   display: none;
-  list-style: none;
-  margin-top: 62px;
-  width: 150px;
-  height: 210px;
+  width: 45px !important;
+  height: 45px;
+  background-color: transparent;
+  border: 2px solid #83a8ec6b;
+  border-radius: 8px;
+  margin-right: 15px;
+  padding: 7px;
+  box-shadow: inset rgba(122, 153, 189, 0.297) 0px 1px 3px 2px;
+}
+#menu-div{
+  width: 180px;
+  height: 100vh;
+  position: fixed;
   background: linear-gradient(
     0deg,
     rgba(18, 4, 41, 1) 15%,
@@ -148,28 +129,44 @@ header .dropdown {
     rgba(64, 13, 99, 1) 86%,
     rgba(56, 4, 91, 1) 100%
   );
+  top: 0;
+  right: -250px;
+  box-shadow: rgb(38, 57, 77) 0px 1px 20px 1px;
+}
+#menu-div ul{
+  margin-top: 60px;
+  padding: 0;
+}
+#menu-div li{
+  list-style: none;
   text-align: center;
+  margin: 20px 0;
 }
-.dropdown li {
-  padding: 9px;
-}
-header .drop-link {
-  display: contents;
+#menu-div a{
   text-decoration: none;
-  position: relative;
-  color: aliceblue;
-  font-family: "Playfair Display", serif;
-  font-size: 1.1em;
+  color: white;
+  font-size: 20px;
   font-weight: 700;
 }
-header .drop-link:hover {
-  color: #7da6f2;
-  transition: 0.3s;
+#menuclose{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  padding: 0;
 }
-header .dropdown:hover {
-  box-shadow: #acacaca1 2px -2px 6px 2px inset;
-  transition: 0.8s;
+#menu-div .social_list{
+  display: flex; 
+  justify-content: center; 
+  margin-top: 0;
+  visibility: hidden;
 }
+/* hamburger menu end */
+
 .sticky-nav{
   width: 58px;
   padding: 5px;
